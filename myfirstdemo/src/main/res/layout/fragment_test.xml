@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <!-- 中间内容 -->
+    <FrameLayout android:id="@+id/fragmentPager"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+      />
+    <!-- 底部导航栏 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="73"
+        android:orientation="horizontal" >
+
+        <TextView android:id="@+id/tvWork"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="首页"
+            android:gravity="center"
+            android:textColor="#000"
+            android:background="#E4BA3F"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:background="#cccccc"/>
+        <TextView android:id="@+id/tvTalents"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="购物车"
+            android:textColor="#E4BA3F"
+            android:gravity="center"/>
+        <!-- 分割线 -->
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:background="#ccc"/>
+        <TextView android:id="@+id/tvSchool"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="发现"
+            android:gravity="center"
+            android:textColor="#E4BA3F"/>
+        <!-- 分割线 -->
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:background="#ccc"/>
+        <TextView android:id="@+id/tvStudent"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="我的"
+            android:gravity="center"
+            android:textColor="#E4BA3F"/>
+    </LinearLayout>
+
+</LinearLayout>

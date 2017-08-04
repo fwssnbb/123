@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">第一个程序</string>
+    <string name="btn_login">登陆</string>
+</resources>

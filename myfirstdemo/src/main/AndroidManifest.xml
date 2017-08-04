@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.winnie.myfirstdemo">
+
+    <application
+        android:name="com.winnie.extra.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/net"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".RegistActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".LoadActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".OauthActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".AutoActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".GirdText"></activity>
+        <activity android:name=".DialogTest">
+
+        </activity>
+        <activity android:name=".LoginActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FragmentTest">
+
+        </activity>
+
+
+
+
+
+
+    </application>
+
+</manifest>
